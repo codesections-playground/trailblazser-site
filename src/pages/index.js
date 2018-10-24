@@ -8,17 +8,39 @@ const All = styled.div`
   font-size: 18px;
   color: #444;
   padding: 0 10px;
+  text-align: center;
 `;
 
 const Link = styled.a`
   color: #0074d9;
 `;
 
+const Ul = styled.ul`
+  width: 200px;
+  width: fit-content;
+`;
+
+const Table = styled.table`
+  overflow: auto;
+  border-spacing: 0;
+  margin: auto;
+`;
+
+const Th = styled.th`
+  padding: 6px 13px;
+  border: 0.5px solid #dfe2e5;
+`;
+
+const Td = styled.td`
+  padding: 6px 13px;
+  border: 0.5px solid #dfe2e5;
+`;
+
 export default () => (
   <All>
     <h1>Trailblazers</h1>
     <h3>Trello Links</h3>
-    <ul>
+    <Ul>
       <li>
         <Link href="https://trello.com/b/SpVbh6CM/front-end-capstone-sprint-0-%F0%9F%9A%80-24-10-18-25-10-18">
           Daniel's Trello
@@ -39,7 +61,7 @@ export default () => (
           Spencer's Trello
         </Link>
       </li>
-    </ul>
+    </Ul>
 
     <h3>
       <Link href="https://zoom.us/j/7052581097">Zoom Link</Link>
@@ -50,5 +72,27 @@ export default () => (
         Google Drive
       </Link>
     </h3>
+
+    <h3>Current PR Pairs</h3>
+    <Table>
+      <thead>
+        <tr>
+          <Th>First</Th>
+          <Th>Second</Th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <Td>Lindsey</Td>
+          <Td>Drew</Td>
+        </tr>
+        <tr>
+          <Td>Spencer</Td>
+          <Td>Daniel</Td>
+        </tr>
+      </tbody>
+    </Table>
+
+    <h3>Next Meeting: Wend @ right after student presentations</h3>
   </All>
 );
