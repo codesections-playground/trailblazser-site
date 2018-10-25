@@ -34,6 +34,7 @@ const Th = styled.th`
 const Td = styled.td`
   padding: 6px 13px;
   border: 0.5px solid #dfe2e5;
+  text-align: left;
 `;
 
 export default () => (
@@ -74,25 +75,27 @@ export default () => (
     </h3>
 
     <h3>Current PR Pairs</h3>
+    <p>Lindsey ⟷ Spencer</p>
+    <p>Daniel ⟷ Drew</p>
+
+    <h3>Upcoming</h3>
     <Table>
-      <thead>
-        <tr>
-          <Th>First</Th>
-          <Th>Second</Th>
-        </tr>
-      </thead>
       <tbody>
         <tr>
-          <Td>Lindsey</Td>
-          <Td>Drew</Td>
+          <Th>Next meeting</Th>
+          <Td>Sometime Thursday morning (Spencer will ping)</Td>
         </tr>
         <tr>
-          <Td>Spencer</Td>
-          <Td>Daniel</Td>
+          <Th>Next deadline</Th>
+          <Td>
+            Friday @11:59
+            <br />
+            Link to GitHub PR
+            <br />
+            Copy of seed script for DB
+          </Td>
         </tr>
       </tbody>
     </Table>
-
-    <h3>Next Meeting: Wend @ right after student presentations</h3>
   </All>
 );
