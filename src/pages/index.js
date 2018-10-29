@@ -75,24 +75,22 @@ export default () => (
     </h3>
 
     <h3>Current PR Pairs</h3>
-    <p>Lindsey ⟷ Spencer</p>
-    <p>Daniel ⟷ Drew</p>
+    <p>Daniel ⟷ Spencer</p>
+    <p>Lindsey ⟷ Drew</p>
 
     <h3>Upcoming</h3>
     <Table>
       <tbody>
         <tr>
           <Th>Next meeting</Th>
-          <Td>Sometime Thursday morning (Spencer will ping)</Td>
+          <Td>Monday @10am (right after toy problem)</Td>
         </tr>
         <tr>
           <Th>Next deadline</Th>
           <Td>
-            Friday @11:59
+            Wednesday @11:59
             <br />
             Link to GitHub PR
-            <br />
-            Copy of seed script for DB
           </Td>
         </tr>
       </tbody>
