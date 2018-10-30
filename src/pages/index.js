@@ -75,15 +75,15 @@ export default () => (
     </h3>
 
     <h3>Current PR Pairs</h3>
-    <p>Daniel ⟷ Spencer</p>
-    <p>Lindsey ⟷ Drew</p>
+    <p>Daniel ⟷ Drew</p>
+    <p>Lindsey ⟷ Spencer</p>
 
     <h3>Upcoming</h3>
     <Table>
       <tbody>
         <tr>
           <Th>Next meeting</Th>
-          <Td>Monday @10am (right after toy problem)</Td>
+          <Td>Tuesday @10:30am (right after live lecture)</Td>
         </tr>
         <tr>
           <Th>Next deadline</Th>
